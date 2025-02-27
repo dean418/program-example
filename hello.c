@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 void print_msg() {
-  printf("hello world!");
-} 
+  printf("something else");
+}
 
 int main() {
+  printf("hello world!\n");
+  printf("bcdefgh");
   print_msg();
   return 0;
 }
